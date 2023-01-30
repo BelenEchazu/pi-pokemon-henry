@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  opacity: 0.7;
+  background-color:#ce3d94;
+  margin-top: 0.3%;
+  flex-direction: row;
+  
+}
+/*.inputSearchBar {
+  margin: 9px;
+margin-left: -35px;
+  margin-right: 0;
+  padding: 1.1em 30em;
+  outline: none;
+  color: rgb(11, 10, 10);
+}*/
+.inputSearchBar {
+  background-color: #f6f0f5;
+  max-width: 190px;
+  height: 50px;
+  padding: 10px;
+  /* text-align: center; */
+  border: 10px solid rgb(248, 243, 243);
+  border-radius: 5px;
+  /* box-shadow: 3px 3px 2px rgb(249, 255, 85); */
+}
+
+.inputSearchBar:focus {
+  color: #ae3f82;
+  background-color: #f8f7f8;
+  outline-color: #ae3f82;
+  box-shadow: -3px -3px 25px #0c0c0c;
+  transition: .1s;
+  transition-property: box-shadow;
+}
+.inputHome {
+  outline: none;
+  border-radius: 10%;
+}
+
+.btnSearchBar {
+  padding: 1em;
+  background: #050505;
+  border: none;
+  border-radius: 10%;
+  margin-top: 5%;
+  margin-right: -44px;
+  color: #fff;
+}
+.inputHome {
+  background: #0a0a0a;
+  color: rgb(246, 240, 240);
+  display: inline-block;
+  padding: 9px 15px;
+  text-decoration: none;
+  align-items: right;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+}
+.btnForm {
+  position: relative;
+  background: #060606;
+  color: #fff;
+  display: inline-block;
+  margin-left: -120px;
+  padding: 15px 15px;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 10px;
+}
+.btnSearchBar:hover {
+  background-color: #ae3f82;
+}
+.navContainer {
+  padding: 6px;
+}
+
+.inputHome:hover {
+  background-color: #ae3f82;
+  cursor: pointer;
+}
+.btnForm:hover {
+  background-color: #ae3f82;
+  cursor: pointer;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+.NavLinkContainer {
+  padding: 10px;
+}
+.NavLinkToLanding {
+  background: #5f9ee7;
+  color: #fff;
+  padding: 12px;
+  margin-bottom: 20px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 13px;
+  align-items: right;
+}
+.NavLinkToLanding:hover {
+  background-color: #ae3f82;
+}
+.refresh {
+  background: #0b0b0b;
+  position: relative;
+    color: #fff;
+  display: inline-block;
+  padding: 11px 15px;
+  text-decoration: none;
+
+  margin: 10px;
+  border-radius: 20px;
+  border: none;
+}
+.refresh:hover {
+  background-color: #ae3f82;
+  cursor: pointer;
+}
+
+.pForm {
+  background: #ae3f82;
+  color: #fff;
+  display: inline-block;
+  margin: 10px;
+  border: none;
+}
+.selectTypes {
+  display: inline-block;
+  background: #ae3f82;
+  padding: 0 8px;
+  border-radius: 20px;
+}
+.buttonDelete {
+  padding: 0.3em;
+  margin: 0.3em;
+  background-color: #d57777;
+  color: #fff;
+  border: none;
+  border-radius: 2em;
+}

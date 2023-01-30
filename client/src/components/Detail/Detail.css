@@ -1,0 +1,116 @@
+.pokemonContainer {
+  text-decoration: none;
+  display: inline-block;
+  margin: 70px;
+  padding: 30px;
+  width: 20em;
+  border-radius: 18px;
+}
+.pokemonContainer {
+  width: 20rem;
+  height: rem;
+  background-color: #212121;
+  border-radius: 1rem;
+  border: #212121 0.2rem solid;
+  transition: all 0.4s ease-in;
+  box-shadow: 0.4rem 0.4rem 0.6rem #00000040;
+ }
+ 
+ .pokemonContainer:hover {
+  transform: translateY(-1.5rem);
+  border: #ae3f82 0.2em solid;
+  border-radius: 2.5rem 0 2.5rem 0;
+ }
+.pokemonImg {
+  width: 15em;
+  height: 15em;
+}
+.type {
+  align-items: center;
+  margin: 5px;
+  font-size: 1em;
+
+}
+.bodyDetail {
+  background-image: url("../assets/pikachudetail2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 120%;
+  position: absolute;
+}
+.p-item {
+  margin: 1px;
+  font-size: 1em;
+  color: #ebf1ea;
+  line-height: 100%;
+}
+.span-item {
+  color: #ea9bcb;
+  font-size: 1.3em;
+}
+.NavLinkContainerDetail {
+  margin-bottom: -93px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+.NavLinkDetail {
+  margin: 10px;
+  padding: 12px 12px;
+  display: inline-block;
+  border: none;
+  background-color: #0b0b0b;
+  color: #fff;
+  border-radius: 2px;
+  text-decoration: none;
+}
+.NavLinkDetail:hover {
+  background-color: #ae3f82;
+}
+.loadingContainer {
+  background-image: url("../assets/loadinpika.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.container{
+  margin: 70px;
+}
+.loadingH2{
+  font-size: 45px;
+  margin-top:  15%;
+}
+.loadingImgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonDelete{
+  margin: 10px;
+  padding: 10px 12px;
+  display: inline-block;
+  border: none;
+  background-color: #0a0a0a;
+  color: #fff;
+  border-radius: 2px;
+}
+.buttonDelete:hover{
+  background-color: #ae3f82;
+}
+.buttonEdit{
+  padding: 9.5px;
+  font-size: 15px;
+  border: none;
+  background-color: #ae3f82;
+  color: #fff;
+  border-radius: 2px;
+  text-decoration: none;
+}
+.buttonEdit:hover{
+  background-color: #ae3f82;
+}

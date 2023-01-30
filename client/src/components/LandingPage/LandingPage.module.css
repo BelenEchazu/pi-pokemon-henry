@@ -1,0 +1,82 @@
+
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.titleLandingPage {
+  color:#ae3f82;
+  margin: 40px;
+  margin-top: 60%;
+  font-size: 60px;
+}
+.bodyLandingPage {
+  background: url("../assets/pokemonlanding.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.btnLandingPage {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #ae3f82;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px #ae3f82(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.btnLandingPage:hover {
+  background-color: #ae3f82;
+  box-shadow: 0px 15px 20px #ae3f82(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.btnLandingPage:active {
+  transform: translateY(-1px);
+}
+/*.btnLandingPage {
+  text-decoration: none;
+  color: #fff;
+  border-radius: 30px;
+  padding: 1.4em 1.9em;
+  background-color: #faa26a;
+}
+.btnLandingPage:hover {
+  transition: all 0.2s;
+  background-color: #df9af6;
+}*/
+.titleContainer {
+  display: flex;
+  justify-content: right;
+  margin-top: -11%;
+  padding-right: 32%;
+  
+  
+}
+.linkContainer {
+  margin: 30px;
+}
+.img {
+  margin: 15px;
+  margin-right: 20px;
+  margin-bottom: -15px;
+}
+.p{
+  font-size: 28px;
+font-weight: 500;
+  margin-bottom: 40px;
+  color: #ae3f82;
+}

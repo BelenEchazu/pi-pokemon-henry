@@ -1,0 +1,18 @@
+.paginadoLi{
+    display: inline-block;
+    margin: 6px;
+
+    }
+.buttonPaginado{
+    padding: 7px;
+    background:#ae3f82;
+    color:#fff;
+    border: none;
+    margin-bottom: 23px;    border-radius: 5px;
+}
+.buttonPaginado:focus{
+    background:#ae3f82;
+}
+.liPaginado{
+    display: inline-block;
+}

@@ -1,0 +1,100 @@
+.bodyForm {
+  background: url("../assets/fotopokeform2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 120%;
+    position: absolute;
+  }
+  
+  .form {
+    padding-top: 20px;
+    font-weight: 200;
+    font-size: 15px;
+    display: inline-block;
+    border-radius: 7px;
+    background-color: #f8f4f4;
+    padding: 20px 40px 20px 40px;
+  }
+  
+  .inputItem {
+    margin-top: 5px;
+    padding-left: 15px;
+    height: 30px;
+    width: 200px;
+    border-radius: 7px;
+    border: none;
+    background-color: #f5d3e7;
+  }
+  
+  .inputs:focus {
+    outline: none;
+  }
+  
+  .select {
+    margin-top: 5px;
+    padding-left: 15px;
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f48dcb;
+  }
+  
+  .select:focus {
+    outline: none;
+  }
+  
+  .deleteButton {
+    border-radius: 20px;
+    border: none;
+    padding: 3px;
+    background-color:#ae3f82;
+    color: #f5edf2;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 12px;
+  }
+  
+  .submit {
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: #ae3f82;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    margin-top: 5px;
+  }
+  .submit:hover {
+    background-color: #060606;
+  }
+  .Errors {
+    font-size: 11px;
+    font-weight: 400;
+    margin-top: 5px;
+    color: red;
+  }
+  .NavLinkContainer {
+    display: flex;
+    justify-content: left;
+  }
+  .NavLinkForm {
+    cursor: pointer;
+    font-size: 12px;
+    padding: 5px 9px;
+    border-radius: 8px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #ae3f82;
+    color: rgb(241, 236, 236);
+  }
+  .NavLinkForm:hover {
+    background-color: #0d0d0d;
+  }
+  .pForm {
+    display: inline-block;
+  }
+  
