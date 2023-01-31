@@ -6,7 +6,7 @@ import Detail from "./components/Detail/Detail.jsx";
 import Form from "./components/Form/Form.jsx";
 import EditPokemon from "./components/EditPokemon/EditPokemon";
 import axios from "axios";
-axios.defaults.baseURL='pi-pokemon-henry-production.up.railway.app';
+axios.defaults.baseURL='https://pi-pokemon-henry-production.up.railway.app/';
 function App() {
   return (
     <div className="App">
